@@ -29,17 +29,15 @@
     }
 
     canvas {
-
       position: absolute;
-
       width: 100%;
-
       height: 100%;
     }
 
     #pinkboard2 {
-      /* height: 50%; */
-      /* margin: auto; */
+      position: absolute;
+      height: 50%;
+      margin: auto;
       width: 50%;
       animation: animate 1.3s infinite;
     }
@@ -48,8 +46,9 @@
     /*  */
 
     #pinkboard {
-      /* margin: auto; */
-      /* height: 50%; */
+      position: absolute;
+      margin: auto;
+      height: 50%;
       width: 50%;
       animation: animate2 1.3s infinite;
     }
@@ -95,10 +94,11 @@
 
     .body-center {
       width: 100%;
-      height: 55vh;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
     }
 
     .name-decoration {
@@ -106,7 +106,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      transform: translateY(-300px);
+      transform: translateY(-100px);
     }
 
     .name-decoration>p {
